@@ -30,6 +30,10 @@ class ItemDeprecation(
         return result
     }
 
+    override fun toString(): String {
+        return "ItemDeprecation {reason=${this.reason} \\ replacement=${this.replacement} \\ level=${this.level} \\ }"
+    }
+
     fun nullSafeEquals(o1: Any?, o2: Any?): Boolean {
         if(o1 == o2){
             return true
