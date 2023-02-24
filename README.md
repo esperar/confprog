@@ -17,7 +17,7 @@ annotationProcessor("org.springframework.boot:spring-boot-configuration-processo
 kapt("org.springframework.boot:spring-boot-configuration-processor")
 ```
 
-```mave
+```html
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-configuration-processor</artifactId>
