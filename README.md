@@ -16,3 +16,11 @@ kotlin("kapt") version "{VERSION}"
 annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 kapt("org.springframework.boot:spring-boot-configuration-processor")
 ```
+
+```mave
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-configuration-processor</artifactId>
+    <optional>true</optional>
+</dependency>
+```
