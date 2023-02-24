@@ -1,4 +1,4 @@
-### protoconfig
+### confprog
 
 spring boot configuration processor 를 kotlin으로 구현한 v2 버전입니다.  
 
