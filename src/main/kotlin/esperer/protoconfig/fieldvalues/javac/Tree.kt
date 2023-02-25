@@ -1,4 +1,4 @@
 package esperer.protoconfig.fieldvalues.javac
 
-class Tree {
+class Tree: ReflectionWrapper() {
 }
